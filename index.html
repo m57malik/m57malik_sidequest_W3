@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#1e3a3a" />
+    <title>The Exam Week - Interactive Story</title>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <h1 class="title">The Exam Week</h1>
+        <p class="subtitle">An Interactive Survival Story</p>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section class="card">
+        <div class="canvas-frame">
+          <!-- p5 canvas mounts here -->
+        </div>
+        <p class="hint">
+          Your choices affect your mental clarity. Multiple endings await.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <small>© 2026 · Built with p5.js for GBDA302</small>
+      </div>
+    </footer>
+
+    <!-- p5.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1/lib/p5.min.js"></script>
+    
+    <!-- Game files (order matters - main.js must be last!) -->
+    <script src="start.js"></script>
+    <script src="monday.js"></script>
+    <script src="library.js"></script>
+    <script src="dorm.js"></script>
+    <script src="coffeeshop.js"></script>
+    <script src="midnight.js"></script>
+    <script src="wednesday.js"></script>
+    <script src="thursday.js"></script>
+    <script src="exam.js"></script>
+    <script src="ending_burnout.js"></script>
+    <script src="ending_survivor.js"></script>
+    <script src="ending_balanced.js"></script>
+    <script src="ending_enlightened.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
